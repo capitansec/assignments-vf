@@ -1,0 +1,3 @@
+SELECT order_id, LISTAGG(id, , ) WITHIN GROUP ( ORDER BY id ) as ids
+FROM orders
+GROUP BY  order_id;

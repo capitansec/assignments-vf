@@ -1,0 +1,4 @@
+db.records.find({
+    gsm: {$ne: null}, //gsm not equal null, boş olanları alma
+    insert_date: {$gt: ISODate("2022-04-01T00:00:00Z")} //greather than timestamp
+}).pretty();
