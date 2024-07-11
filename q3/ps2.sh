@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sleep 10
 FILE="./hello.txt"
 SCRIPT="./ps1.sh"
 
